@@ -84,6 +84,8 @@ function showMemoryIndicator() {
 
 function hideMemoryIndicator() {
     display.style.borderLeft = 'none';
+}
+
 function calculatePercentage() {
     try {
         currentInput = (eval(currentInput) / 100).toString();
